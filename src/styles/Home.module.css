@@ -1,0 +1,25 @@
+.imagebg{
+  background-color: grey;
+  background-image:url("/photobg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+  height: max-content;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
